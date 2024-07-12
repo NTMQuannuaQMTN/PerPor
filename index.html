@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Manh Quan - The web</title>
+    <meta charset="utf-8">
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=1uJ6zZVG"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/539b9bd34b.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <style>
+        .title {
+            background-image: url("indexbg.jpg");
+            height: 40vw;
+        }
+
+        .title h1 {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <h1>MANH QUAN</h1>
+        </div>
+        <div class="header-right">
+            <h1>THE WEB</h1>
+        </div>
+    </header>
+    <div class="topnav" id="myTopnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="education.html">Education</a>
+        <a href="achievements.html">Achievements</a>
+        <a href="extra.html">Extracurricular</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa-solid fa-bars"></i>
+        </a>
+    </div>
+    <main>
+        <div class="title">
+            <h1>WELCOME</h1>
+        </div>
+        <div class="container">
+            <img src="myself.jpg" alt="Image" class="image-left">
+            <div class="text-set-right">
+                <h2>Nguyen Truong Manh Quan</h2>
+                <p>
+                    DOB: Nov 01, 2008
+                    <br>
+                    Location: Ho Chi Minh City, Vietnam
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h1>Manh Quan</h1>
+    </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>
