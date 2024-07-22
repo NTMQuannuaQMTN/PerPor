@@ -107,6 +107,8 @@ footer {
 .container {
     display: flex;
     align-items: center;
+    gap: 3%;
+    justify-content: center;
 }
 
 .image-left {
@@ -212,7 +214,7 @@ p {
     background-clip: text;
     color: transparent;
     margin-top: 29vh;
-    padding: 5vh
+    padding: 14%;
     font-size: 6vw;
 }
 
