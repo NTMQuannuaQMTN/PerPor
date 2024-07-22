@@ -197,7 +197,7 @@ p {
 
 .title {
     width: 100vw;
-    height: 20vw;
+    height: fit-content;
     margin-top: -29vh;
     background-size: 100vw;
     background-color: #FFF3E2;
@@ -212,6 +212,7 @@ p {
     background-clip: text;
     color: transparent;
     margin-top: 29vh;
+    padding: 5vh
     font-size: 6vw;
 }
 
